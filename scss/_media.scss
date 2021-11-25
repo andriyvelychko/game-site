@@ -1,0 +1,139 @@
+
+
+@media (max-width: 1520px){
+
+    .banner__slider-content {
+        top: 200px;
+    }
+    .banner__slider-content_flex {
+        margin-bottom: 100px;
+    }
+
+}
+
+@media (max-height: 805px){
+    html{
+        font-size: 15px;
+    }
+    .banner__slider-content_flex {
+        margin-bottom: 20px;
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 1456px){
+    .stages__text{
+        padding-bottom: 45px;
+    }
+    .stages__registration {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 991px){
+
+    .banner__slider-content {
+        top: 200px;
+    }
+    .banner__slider-content_flex {
+        width: 100%;
+        padding-right: 35px;
+    }
+
+}
+
+@media (max-width: 767px){
+    html{
+        font-size: 14px;
+    }
+    .header__flex{
+        width: 100%;
+    }
+    .header__link-social {
+        margin-right: 20px;
+    }
+    .footer{
+        height: 100vh;
+        .wrapper {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 581px){
+    html{
+        font-size: 13px;
+    }
+    .header__flex {
+        padding-bottom: 20px;
+    }
+    .banner__slider-content {
+        top: 150px;
+    }
+    .banner__buttons {
+        flex-direction: column;
+    }
+    .banner__buttons .btn:first-child {
+        margin-bottom: 20px
+    }
+    .stages {
+        padding-top: 80px;
+    }
+    .stages__registration-flex {
+        flex-direction: column;
+    }
+    .stages__registration-item {
+        margin-right: 0;
+        margin-bottom: 84px;
+    }
+    .stages__registration-item img {
+        margin-bottom: 15px;
+    }
+    .stages__registration-item::before {
+        top: 100%;
+        left: 50%;
+        height: 72px;
+        width: 4px;
+        transform: translate(-50%, 0);
+    }
+    .footer {
+        min-height: 120vh;
+    }
+}
+
+@media (max-width: 417px){
+    html{
+        font-size: 12px;
+    }
+    .banner__slider-content {
+        top: 125px;
+    }
+    .banner__slider-content_flex h1 {
+        margin-bottom: 10px;
+    }
+    .banner__buttons {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 350px){
+    .wrapper{
+        padding: 0 10px;
+    }
+    .timetable {
+        min-height: 100vh;
+        padding: 146px 0px 80px 0;
+    }
+    .timetable #tabs .tabContent {
+        text-align: center;
+    }
+    .timetable .tab-slider {
+        margin: 0 0;
+    }
+    .timetable .tab-slider__item {
+        max-width: 275px;
+        min-height: 340px;
+        margin: 0 0 25px 0;
+        padding: 25px 30px 25px 25px;
+    }
+}

@@ -1,0 +1,197 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 20px;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul,
+li{
+   list-style: none; 
+}
+body{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.wrapper {
+	max-width: 1560px;
+	width: 100%;
+	margin: -4px auto;
+	padding: 0 20px;
+}
+
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.75rem;
+    line-height: 3.65rem;
+    color: $text-color-light;
+}
+h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: $text-color-light;
+}
+h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 35px;
+    color: $text-color-light; 
+}
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #FAFAFA;
+}
+.tab {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: $text-color-light;
+}
+.place {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.875rem;
+	line-height: 20px;
+	color: $text-color-light;
+}
+.date__month {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.75rem;
+	line-height: 20px;
+	color: $text-color-light;
+}
+.date__clock {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.25rem;
+	line-height: 20px;
+	color: $text-color-light;
+}
+
+.coefficient{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 20px;
+    color: $text-color-light;
+}
+.tab__start-match{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 20px;
+    color: #757C84;
+}
+
+.whatch-live button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $link-color-light;
+}
+.stages__title {
+    line-height: 45px;
+    color: $text-color-dark;
+}
+.stages__par {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 30px;
+    color: $text-color-dark;
+}
+.stages__par span{
+   color: $text-color-light; 
+}
+.stages__registration-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 25px;
+    color: $text-color-dark;
+}
+.stages__registration-text span{
+    font-weight: bold;
+}
+
+.footer__timer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5625rem;
+    line-height: 45px;
+    color: $text-color-light;
+}
+
+//buttons
+
+.btn{
+    display: block;
+    padding: 15px 10px;
+    width: 246px;
+    border: 1px solid $border-color;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: $link-color-light;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    transition: all 0.3s ease;
+}
+.btn-img{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: $link-color-light;
+	display: inline-flex;
+	padding: 11px 20px;
+	border: 1px solid $border-color;
+    background-color: $background-color;
+	img{
+		margin-right: 10px;
+	}
+				
+}

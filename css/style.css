@@ -918,7 +918,7 @@ p {
       -ms-flex-align: end;
           align-items: end;
   padding: 100px 0;
-  background: url("../img/shutterstock_13424595741.jpg") center center no-repeat;
+  background: url("../img/shutterstock_13424595741.webp") center center no-repeat;
   background-size: cover;
   height: 120vh;
 }
@@ -1019,16 +1019,6 @@ p {
   }
   .banner__slider-content_flex {
     margin-bottom: 100px;
-  }
-}
-
-@media (max-height: 805px) {
-  html {
-    font-size: 15px;
-  }
-  .banner__slider-content_flex {
-    margin-bottom: 20px;
-    min-height: 260px;
   }
 }
 
@@ -1161,6 +1151,33 @@ p {
   }
   .timetable .tab-slider__item {
     max-width: 275px;
+  }
+}
+
+@media (max-height: 805px) {
+  html {
+    font-size: 15px;
+  }
+  .banner__slider-content_flex {
+    margin-bottom: 20px;
+    min-height: 260px;
+  }
+}
+
+@media (max-height: 727px) {
+  .banner__slider-content_flex {
+    margin-bottom: 0;
+    min-height: 260px;
+  }
+  .banner .slick-dots li button {
+    width: 20px;
+    height: 20px;
+  }
+  .timetable #tabs .tabContent {
+    padding-top: 5px;
+  }
+  .timetable .slick-dots {
+    bottom: -50px;
   }
 }
 /*# sourceMappingURL=style.css.map */

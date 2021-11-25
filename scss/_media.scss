@@ -11,16 +11,6 @@
 
 }
 
-@media (max-height: 805px){
-    html{
-        font-size: 15px;
-    }
-    .banner__slider-content_flex {
-        margin-bottom: 20px;
-        min-height: 260px;
-    }
-}
-
 @media (max-width: 1456px){
     .stages__text{
         padding-bottom: 45px;
@@ -101,6 +91,24 @@
     }
 }
 
+@media (max-width: 499px){
+    .timetable {
+        min-height: 100vh;
+        padding: 146px 0px 80px 0;
+    }
+    .timetable #tabs .tabContent {
+        text-align: center;
+    }
+    .timetable .tab-slider {
+        margin: 0 0;
+    }
+    .timetable .tab-slider__item {
+        min-height: 340px;
+        margin: 0 0 25px 0;
+        padding: 25px 30px 25px 25px;
+    }
+}
+
 @media (max-width: 417px){
     html{
         font-size: 12px;
@@ -114,26 +122,44 @@
     .banner__buttons {
         padding-top: 25px;
     }
+    .timetable .tab-slider__item {
+        max-width: 300px;
+    }
 }
 
 @media (max-width: 350px){
     .wrapper{
         padding: 0 10px;
     }
-    .timetable {
-        min-height: 100vh;
-        padding: 146px 0px 80px 0;
-    }
-    .timetable #tabs .tabContent {
-        text-align: center;
-    }
-    .timetable .tab-slider {
-        margin: 0 0;
-    }
     .timetable .tab-slider__item {
         max-width: 275px;
-        min-height: 340px;
-        margin: 0 0 25px 0;
-        padding: 25px 30px 25px 25px;
+    }
+    
+}
+
+@media (max-height: 805px){
+    html{
+        font-size: 15px;
+    }
+    .banner__slider-content_flex {
+        margin-bottom: 20px;
+        min-height: 260px;
+    }
+}
+@media (max-height: 727px){
+
+    .banner__slider-content_flex {
+        margin-bottom: 0;
+        min-height: 260px;
+    }
+    .banner .slick-dots li button {
+        width: 20px;
+        height: 20px;
+    }
+    .timetable #tabs .tabContent {
+        padding-top: 5px;
+    }
+    .timetable .slick-dots {
+        bottom: -50px;
     }
 }

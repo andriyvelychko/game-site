@@ -160,6 +160,36 @@
         padding-top: 5px;
     }
     .timetable .slick-dots {
-        bottom: -50px;
+        bottom: -55px;
+    }
+    .timetable .slick-arrow {
+        bottom: -80px;
+    }
+
+}
+@media (max-height: 690px){
+    html{
+        font-size: 13px;
+    }
+    .header__flex {
+        padding-bottom: 15px;
+    }
+    .banner__slider-content {
+        top: 135px;
+    }
+    .banner__slider-content_flex {
+        max-height: 245px;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+    .footer__link {
+        margin-top: 5px;
+    }
+    .footer__table td {
+        padding: 5px 20px;
+    }
+    .footer__position {
+        width: 520px;
     }
 }

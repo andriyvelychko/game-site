@@ -33,7 +33,7 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 348,
+                breakpoint: 499,
                 settings: "unslick"
             }
 
@@ -65,7 +65,7 @@ $('.tab-slider__battles').slick({
             }
         },
         {
-            breakpoint: 348,
+            breakpoint: 499,
             settings: "unslick"
         }
 
